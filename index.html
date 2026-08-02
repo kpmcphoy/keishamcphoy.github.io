@@ -3,22 +3,22 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta
-    name="description"
-    content="Keisha McPhoy's healthcare technology and clinical informatics portfolio."
-  />
-  <title>Keisha McPhoy | Healthcare Technology Portfolio</title>
+  <meta name="description" content="Keisha McPhoy — Healthcare Technology, Clinical Informatics, Epic Implementation, and Healthcare Analytics." />
+  <title>Keisha McPhoy | Healthcare Technology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header class="site-header">
-    <div class="container nav">
+    <div class="container nav-wrap">
       <a class="brand" href="#top">Keisha McPhoy</a>
-
-      <nav aria-label="Primary navigation">
+      <nav class="nav-links" aria-label="Primary navigation">
         <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
+        <a href="#impact">Impact</a>
+        <a href="#case-studies">Case Studies</a>
+        <a href="#experience">Experience</a>
         <a href="#contact">Contact</a>
       </nav>
     </div>
@@ -26,114 +26,129 @@
 
   <main id="top">
     <section class="hero">
-      <div class="container hero-content">
-        <p class="eyebrow">Healthcare Technology • Clinical Informatics • Implementation</p>
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Healthcare Technology • Clinical Informatics • Implementation</p>
+          <h1>Turning complex healthcare technology into <span>seamless clinical workflows.</span></h1>
+          <p class="hero-text">I’m Keisha McPhoy, a healthcare technology professional with 7+ years of experience supporting Epic implementations, clinical systems, end-user training, healthcare operations, and data-informed process improvement.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#case-studies">View Case Studies</a>
+            <a class="button button-secondary" href="resume.pdf" target="_blank" rel="noopener">View Resume</a>
+          </div>
+        </div>
 
-        <h1>Helping healthcare teams adopt technology, improve workflows, and support better care.</h1>
+        <div class="hero-visual" aria-label="Healthcare technology dashboard illustration">
+          <div class="dashboard-card">
+            <div class="dashboard-top">
+              <div>
+                <p class="mini-label">Clinical Technology Impact</p>
+                <h2>Implementation at scale</h2>
+              </div>
+              <span class="status-pill">Healthcare IT</span>
+            </div>
+            <div class="dashboard-metrics">
+              <div class="metric-small"><strong>70K+</strong><span>Clinical staff supported</span></div>
+              <div class="metric-small"><strong>28</strong><span>Hospitals</span></div>
+              <div class="metric-small"><strong>1,000+</strong><span>Clinical locations</span></div>
+            </div>
+            <div class="workflow-graphic" aria-hidden="true">
+              <span class="node node-a"></span><span class="node node-b"></span><span class="node node-c"></span><span class="node node-d"></span>
+              <span class="line line-a"></span><span class="line line-b"></span><span class="line line-c"></span>
+            </div>
+            <div class="dashboard-note">Epic implementation • Training operations • Workflow support • Technology adoption</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
-        <p class="hero-text">
-          I am Keisha McPhoy, a healthcare technology professional with 7+ years
-          of experience supporting Epic implementations, clinical systems,
-          end-user training, project coordination, and healthcare operations.
-        </p>
-
-        <div class="hero-buttons">
-          <a class="button primary" href="#projects">View Projects</a>
-          <a class="button secondary" href="#contact">Contact Me</a>
+    <section id="impact" class="impact-section">
+      <div class="container">
+        <div class="section-heading compact">
+          <p class="section-kicker">Healthcare Impact</p>
+          <h2>Experience measured by scale, outcomes, and service.</h2>
+        </div>
+        <div class="impact-grid">
+          <article><strong>70,000+</strong><span>Clinical staff supported through Epic training operations</span></article>
+          <article><strong>28</strong><span>Hospitals supported during enterprise implementation</span></article>
+          <article><strong>1,000+</strong><span>Ambulatory and clinical care locations</span></article>
+          <article><strong>45,000</strong><span>Daily laboratory samples supported at peak volume</span></article>
+          <article><strong>99%</strong><span>Patient results delivered within 24 hours</span></article>
+          <article><strong>7+</strong><span>Years of healthcare experience</span></article>
         </div>
       </div>
     </section>
 
     <section id="about" class="section">
-      <div class="container">
-        <p class="section-label">About</p>
-        <h2>Healthcare experience with a technology and informatics focus.</h2>
-        <p>
-          My background includes Epic implementation support, healthcare
-          training, clinical workflow support, health information management,
-          and graduate-level work in biomedical and health informatics.
-        </p>
+      <div class="container about-grid">
+        <div>
+          <p class="section-kicker">About</p>
+          <h2>Healthcare experience with a technology, implementation, and informatics focus.</h2>
+        </div>
+        <div class="about-copy">
+          <p>My background spans Epic implementation support, product deployment, clinical workflow training, health information management, and healthcare operations.</p>
+          <p>I am completing a Master of Science in Biomedical &amp; Health Informatics and building deeper expertise in healthcare analytics, Python, SQL, project management, and technology-enabled process improvement.</p>
+        </div>
       </div>
     </section>
 
-    <section id="projects" class="section alt-section">
+    <section id="case-studies" class="section section-soft">
       <div class="container">
-        <p class="section-label">Featured Projects</p>
-        <h2>Selected healthcare technology and analytics work.</h2>
-
-        <div class="card-grid">
-          <article class="card">
-            <h3>Predicting 30-Day Hospital Readmissions</h3>
-            <p>
-              A machine learning project focused on identifying patients at
-              higher risk for hospital readmission.
-            </p>
-            <span>Python • Machine Learning • Healthcare Analytics</span>
+        <div class="section-heading">
+          <p class="section-kicker">Featured Case Studies</p>
+          <h2>Healthcare problems approached through implementation, analytics, and workflow design.</h2>
+        </div>
+        <div class="case-grid">
+          <article class="case-card featured-card">
+            <div class="case-number">01</div>
+            <div><p class="case-type">Machine Learning • Healthcare Analytics</p><h3>Predicting 30-Day Hospital Readmissions</h3><p>Developed and compared predictive models to identify patients at increased risk of readmission and support targeted clinical intervention.</p><div class="tag-list"><span>Python</span><span>Logistic Regression</span><span>Random Forest</span><span>ROC/AUC</span></div></div>
           </article>
-
-          <article class="card">
-            <h3>Acute Kidney Injury Prediction</h3>
-            <p>
-              A healthcare analytics project using clinical variables to assess
-              AKI risk in ICU patients.
-            </p>
-            <span>Python • Logistic Regression • Clinical Data</span>
+          <article class="case-card">
+            <div class="case-number">02</div>
+            <div><p class="case-type">Clinical Analytics • Predictive Modeling</p><h3>Acute Kidney Injury Prediction</h3><p>Analyzed ICU clinical variables and evaluated predictors associated with acute kidney injury risk.</p><div class="tag-list"><span>Python</span><span>Clinical Data</span><span>Logistic Regression</span></div></div>
           </article>
-
-          <article class="card">
-            <h3>Remote Blood Pressure Monitoring Pilot</h3>
-            <p>
-              A proposed digital health pilot designed to improve blood pressure
-              control, patient engagement, and care coordination.
-            </p>
-            <span>Digital Health • Workflow Design • Project Planning</span>
+          <article class="case-card">
+            <div class="case-number">03</div>
+            <div><p class="case-type">Digital Health • Project Planning</p><h3>Remote Blood Pressure Monitoring Pilot</h3><p>Designed a patient-centered pilot focused on adherence, blood pressure reduction, workflow integration, and scalable care coordination.</p><div class="tag-list"><span>Remote Monitoring</span><span>Workflow Design</span><span>Implementation</span></div></div>
+          </article>
+          <article class="case-card">
+            <div class="case-number">04</div>
+            <div><p class="case-type">Epic • Enterprise Implementation</p><h3>Epic Training Operations at Scale</h3><p>Supported enterprise-wide Epic readiness across 28 hospitals, 1,000+ locations, and 70,000+ clinical staff.</p><div class="tag-list"><span>Epic</span><span>Training Operations</span><span>Go-Live Readiness</span></div></div>
           </article>
         </div>
       </div>
     </section>
 
-    <section id="skills" class="section">
+    <section id="experience" class="section">
       <div class="container">
-        <p class="section-label">Skills</p>
-        <h2>Core areas of expertise.</h2>
-
-        <div class="skill-list">
-          <span>Epic Implementation</span>
-          <span>Clinical Systems</span>
-          <span>Workflow Optimization</span>
-          <span>End-User Training</span>
-          <span>Project Coordination</span>
-          <span>Healthcare Analytics</span>
-          <span>Python</span>
-          <span>SQL</span>
-          <span>R</span>
-          <span>HIPAA</span>
+        <div class="section-heading"><p class="section-kicker">Experience</p><h2>Bridging healthcare operations, technology, and user adoption.</h2></div>
+        <div class="timeline">
+          <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">2026–Present</p><h3>Product Implementation Trainer</h3><p class="timeline-company">Midas Healthcare Solutions</p><p>Deliver product training, support hospital deployments, troubleshoot user issues, and partner with project and technical teams to improve adoption.</p></div></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">2025</p><h3>Senior Learning &amp; Development Coordinator</h3><p class="timeline-company">Northwell Health / Vaco — Epic Implementation Team</p><p>Coordinated enterprise Epic training operations, implementation milestones, stakeholder communication, and go-live readiness across a large health system.</p></div></article>
+          <article class="timeline-item"><span class="timeline-dot"></span><div><p class="timeline-date">Prior Experience</p><h3>Healthcare Operations, HIM, and Clinical Support</h3><p class="timeline-company">Datavant • Pandemic Response Lab • PM Pediatrics • Agiliti</p><p>Built experience in medical records, HIPAA compliance, high-volume healthcare support, clinical documentation, equipment operations, and cross-functional problem solving.</p></div></article>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section contact-section">
+    <section id="skills" class="section section-soft">
       <div class="container">
-        <p class="section-label">Contact</p>
-        <h2>Let’s connect.</h2>
-        <p>
-          Email:
-          <a href="mailto:kpmcphoy@gmail.com">kpmcphoy@gmail.com</a>
-        </p>
-        <p>
-          LinkedIn:
-          <a href="https://www.linkedin.com/in/keisha-mcphoy/" target="_blank" rel="noopener">
-            linkedin.com/in/keisha-mcphoy
-          </a>
-        </p>
+        <div class="section-heading"><p class="section-kicker">Core Expertise</p><h2>Tools and capabilities across healthcare technology and informatics.</h2></div>
+        <div class="skills-grid">
+          <div class="skill-group"><h3>Clinical Systems</h3><p>Epic, Cerner, eClinicalWorks, Epic HIM workflows, EHR implementation</p></div>
+          <div class="skill-group"><h3>Implementation</h3><p>Go-live support, end-user training, onboarding, stakeholder coordination, adoption</p></div>
+          <div class="skill-group"><h3>Project &amp; Process</h3><p>Project coordination, workflow analysis, process improvement, documentation, change support</p></div>
+          <div class="skill-group"><h3>Data &amp; Analytics</h3><p>Python, SQL, R, Excel, healthcare analytics, predictive modeling, data visualization</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container contact-grid">
+        <div><p class="section-kicker light-kicker">Contact</p><h2>Let’s connect around healthcare technology, implementation, and informatics.</h2></div>
+        <div class="contact-links"><a href="mailto:kpmcphoy@gmail.com">kpmcphoy@gmail.com</a><a href="https://www.linkedin.com/in/keisha-mcphoy/" target="_blank" rel="noopener">LinkedIn</a><a href="resume.pdf" target="_blank" rel="noopener">Resume</a></div>
       </div>
     </section>
   </main>
 
-  <footer>
-    <div class="container">
-      <p>© 2026 Keisha McPhoy. All rights reserved.</p>
-    </div>
-  </footer>
+  <footer><div class="container footer-wrap"><p>© 2026 Keisha McPhoy</p><p>Healthcare Technology • Clinical Informatics • Implementation</p></div></footer>
 </body>
 </html>
